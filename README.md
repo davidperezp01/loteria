@@ -1,24 +1,38 @@
 # loteria
 
+#Instala la librería web3: 
 npm i web3
+
+#css de NextJs:
 npm install bulma
 
+
+#Inicia la dapp en localhost:3000 
 npm run dev (arrancar)
 
---contract--
+
+# Parte de solidity; app-loteria
+
+#Crea los archivos iniciales el proyecto
 npm init
 
-instalar python
+# instalar python
 npm install --g --production windows-build-tools
 
+# instalar truffle globalmente
 npm i -g truffle
+
+#Crea los archivos iniciales
 truffle init
 
-
+#Para setear la tesnet
 npm i dotenv @truffle/hdwallet-provider
 
+#Despliega los contratos .sol a la blockchain
 truffle migrate --network ropsten
 
+
+#Wallets usadas en el proyecto
 
 Private keys metamask:
 owner: 
